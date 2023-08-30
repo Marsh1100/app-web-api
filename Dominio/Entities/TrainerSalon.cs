@@ -8,5 +8,8 @@ namespace Dominio.Entities;
 public class TrainerSalon : BaseEntity
 {
     public string IdPersonaFK { get; set; }
+    public Persona Persona { get; set; }
     public string IdSalonFK {get; set; }
+    public Salon Salon { get; set; }
+
 }
