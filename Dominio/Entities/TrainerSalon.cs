@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Dominio.Entities;
 
-public class TrainerSalon : BaseEntity
+public class TrainerSalon 
 {
     public string IdPersonaFK { get; set; }
     public Persona Persona { get; set; }
