@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\API\\API.csproj": {}
+    "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\API\\API.csproj": {
+    "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\API\\API.csproj",
+        "projectPath": "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\API\\API.csproj",
         "packagesPath": "C:\\Users\\APT01-60\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\API\\obj\\",
+        "outputPath": "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APT01-60\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Aplicacion\\Aplicacion.csproj"
+              "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Aplicacion\\Aplicacion.csproj"
               }
             }
           }
@@ -96,14 +96,14 @@
         }
       }
     },
-    "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\APT01-60\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Aplicacion\\obj\\",
+        "outputPath": "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APT01-60\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -118,8 +118,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj"
+              "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj"
               },
               "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Persistencia\\Persistencia.csproj": {
                 "projectPath": "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Persistencia\\Persistencia.csproj"
@@ -156,14 +156,14 @@
         }
       }
     },
-    "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\APT01-60\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APT01-60\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -245,8 +245,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj"
+              "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj"
               }
             }
           }
