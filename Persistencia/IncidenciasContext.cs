@@ -1,5 +1,6 @@
 
 
+using System.Reflection;
 using Dominio.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -22,5 +23,16 @@ namespace Persistencia
         public DbSet<Salon> Salones { get; set; }
 
         public DbSet<TrainerSalon> TrainerSalones { get; set; }
+
+
+        
+
+    //Sobrecarga que toma los modelos que se han definido en configuración
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+        modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+    }
+
     }
 }
