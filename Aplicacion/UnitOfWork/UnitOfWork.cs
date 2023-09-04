@@ -7,7 +7,6 @@ namespace Persistencia.UnitOfWork;
 public class UnitOfWork : IUnitOfWork, IDisposable
 {
     private readonly IncidenciasContext _context;
-   private DepartamentoRepository _dep;
 
     public UnitOfWork(IncidenciasContext context)
     {
@@ -26,6 +25,7 @@ public class UnitOfWork : IUnitOfWork, IDisposable
         }
     }
 
+   private DepartamentoRepository _dep;
 
     public IDepartamento Departamentos
     {
@@ -37,6 +37,16 @@ public class UnitOfWork : IUnitOfWork, IDisposable
         }
     }
 
+    private CiudadRepository _ciudad;
+    public ICiudad Ciudades
+    {
+        get{
+            if(_ciudad == null){
+                _ciudad = new CiudadRepository(_context);
+            }
+            return _ciudad;
+        }
+    }
     public void Dispose()
     {
         _context.Dispose();    }
