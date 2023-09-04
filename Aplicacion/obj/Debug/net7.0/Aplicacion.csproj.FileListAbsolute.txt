@@ -15,3 +15,20 @@ C:\Users\APT01-60\Documents\mb\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacio
 C:\Users\APT01-60\Documents\mb\app-web-api\Aplicacion\obj\Debug\net7.0\refint\Aplicacion.dll
 C:\Users\APT01-60\Documents\mb\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.pdb
 C:\Users\APT01-60\Documents\mb\app-web-api\Aplicacion\obj\Debug\net7.0\ref\Aplicacion.dll
+D:\Documents\Campus Programmer\app-web-api\Aplicacion\bin\Debug\net7.0\Aplicacion.deps.json
+D:\Documents\Campus Programmer\app-web-api\Aplicacion\bin\Debug\net7.0\Aplicacion.dll
+D:\Documents\Campus Programmer\app-web-api\Aplicacion\bin\Debug\net7.0\Aplicacion.pdb
+D:\Documents\Campus Programmer\app-web-api\Aplicacion\bin\Debug\net7.0\Dominio.dll
+D:\Documents\Campus Programmer\app-web-api\Aplicacion\bin\Debug\net7.0\Persistencia.dll
+D:\Documents\Campus Programmer\app-web-api\Aplicacion\bin\Debug\net7.0\Dominio.pdb
+D:\Documents\Campus Programmer\app-web-api\Aplicacion\bin\Debug\net7.0\Persistencia.pdb
+D:\Documents\Campus Programmer\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.csproj.AssemblyReference.cache
+D:\Documents\Campus Programmer\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Campus Programmer\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.AssemblyInfoInputs.cache
+D:\Documents\Campus Programmer\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.AssemblyInfo.cs
+D:\Documents\Campus Programmer\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.csproj.CoreCompileInputs.cache
+D:\Documents\Campus Programmer\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.csproj.CopyComplete
+D:\Documents\Campus Programmer\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.dll
+D:\Documents\Campus Programmer\app-web-api\Aplicacion\obj\Debug\net7.0\refint\Aplicacion.dll
+D:\Documents\Campus Programmer\app-web-api\Aplicacion\obj\Debug\net7.0\Aplicacion.pdb
+D:\Documents\Campus Programmer\app-web-api\Aplicacion\obj\Debug\net7.0\ref\Aplicacion.dll

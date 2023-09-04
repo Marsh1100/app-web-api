@@ -5,7 +5,7 @@
 namespace Persistencia.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreateMig : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -17,7 +17,7 @@ namespace Persistencia.Data.Migrations
                 name: "Pais",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "varchar(255)", nullable: false)
+                    Id = table.Column<string>(type: "varchar(3)", maxLength: 3, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Nombre = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
@@ -63,11 +63,11 @@ namespace Persistencia.Data.Migrations
                 name: "Departamento",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "varchar(255)", nullable: false)
+                    Id = table.Column<string>(type: "varchar(3)", maxLength: 3, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     NombreDep = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    IdPaisFK = table.Column<string>(type: "varchar(255)", nullable: true)
+                    IdPaisFK = table.Column<string>(type: "varchar(3)", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
@@ -85,11 +85,11 @@ namespace Persistencia.Data.Migrations
                 name: "Ciudad",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "varchar(255)", nullable: false)
+                    Id = table.Column<string>(type: "varchar(3)", maxLength: 3, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     NombreCiu = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    IdDepFK = table.Column<string>(type: "varchar(255)", nullable: true)
+                    IdDepFK = table.Column<string>(type: "varchar(3)", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
@@ -107,7 +107,7 @@ namespace Persistencia.Data.Migrations
                 name: "Persona",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "varchar(255)", nullable: false)
+                    Id = table.Column<string>(type: "varchar(20)", maxLength: 20, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Nombre = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -117,7 +117,7 @@ namespace Persistencia.Data.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Genero = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    IdCiudadFK = table.Column<string>(type: "varchar(255)", nullable: true)
+                    IdCiudadFK = table.Column<string>(type: "varchar(3)", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     IdTipoPersonaFK = table.Column<string>(type: "varchar(255)", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4")
@@ -144,7 +144,7 @@ namespace Persistencia.Data.Migrations
                 {
                     Id = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    IdPersonaFK = table.Column<string>(type: "longtext", nullable: true)
+                    IdPersonaFK = table.Column<string>(type: "varchar(20)", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     IdSalonFK = table.Column<string>(type: "varchar(255)", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4")
@@ -153,11 +153,10 @@ namespace Persistencia.Data.Migrations
                 {
                     table.PrimaryKey("PK_Matricula", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Matricula_Persona_Id",
-                        column: x => x.Id,
+                        name: "FK_Matricula_Persona_IdPersonaFK",
+                        column: x => x.IdPersonaFK,
                         principalTable: "Persona",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Matricula_Salon_IdSalonFK",
                         column: x => x.IdSalonFK,
@@ -170,7 +169,7 @@ namespace Persistencia.Data.Migrations
                 name: "TrainerSalones",
                 columns: table => new
                 {
-                    IdPersonaFK = table.Column<string>(type: "varchar(255)", nullable: false)
+                    IdPersonaFK = table.Column<string>(type: "varchar(20)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     IdSalonFK = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
@@ -208,6 +207,11 @@ namespace Persistencia.Data.Migrations
                 table: "Departamento",
                 column: "NombreDep",
                 unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Matricula_IdPersonaFK",
+                table: "Matricula",
+                column: "IdPersonaFK");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Matricula_IdSalonFK",

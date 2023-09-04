@@ -10,3 +10,15 @@ C:\Users\APT01-60\Documents\mb\app-web-api\Dominio\obj\Debug\net7.0\Dominio.dll
 C:\Users\APT01-60\Documents\mb\app-web-api\Dominio\obj\Debug\net7.0\refint\Dominio.dll
 C:\Users\APT01-60\Documents\mb\app-web-api\Dominio\obj\Debug\net7.0\Dominio.pdb
 C:\Users\APT01-60\Documents\mb\app-web-api\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+D:\Documents\Campus Programmer\app-web-api\Dominio\bin\Debug\net7.0\Dominio.deps.json
+D:\Documents\Campus Programmer\app-web-api\Dominio\bin\Debug\net7.0\Dominio.dll
+D:\Documents\Campus Programmer\app-web-api\Dominio\bin\Debug\net7.0\Dominio.pdb
+D:\Documents\Campus Programmer\app-web-api\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+D:\Documents\Campus Programmer\app-web-api\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Campus Programmer\app-web-api\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+D:\Documents\Campus Programmer\app-web-api\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+D:\Documents\Campus Programmer\app-web-api\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+D:\Documents\Campus Programmer\app-web-api\Dominio\obj\Debug\net7.0\Dominio.dll
+D:\Documents\Campus Programmer\app-web-api\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+D:\Documents\Campus Programmer\app-web-api\Dominio\obj\Debug\net7.0\Dominio.pdb
+D:\Documents\Campus Programmer\app-web-api\Dominio\obj\Debug\net7.0\ref\Dominio.dll

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Persistencia\\Persistencia.csproj": {}
+    "d:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj": {
+    "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\APT01-60\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\obj\\",
+        "projectPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APT01-60\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -67,21 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Persistencia\\Persistencia.csproj": {
+    "d:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "d:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\APT01-60\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Persistencia\\obj\\",
+        "projectPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APT01-60\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -93,8 +93,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Dominio\\Dominio.csproj"
+              "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj": {
+                "projectPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -134,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

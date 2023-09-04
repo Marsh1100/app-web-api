@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "rnA2OqR+JE9e0cr6r5Lku523pD3HahlA3gsM2+w6iNJtK34grNVib/BZuCUJrjf5OH2vrv4MXL+lgb5Q6Bh6GA==",
+  "dgSpecHash": "3KSONHog0ixQWU16E0LNcHdEmGAgLMNkDoq2+AC+4LKmQ5V8mNnusxCvJ6BTSw7FEFNMCA6hOeYCbJFYtFVjdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\APT01-60\\Documents\\mb\\app-web-api\\Seguridad\\Seguridad.csproj",
+  "projectFilePath": "d:\\Documents\\Campus Programmer\\app-web-api\\Seguridad\\Seguridad.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\APT01-60\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
-    "C:\\Users\\APT01-60\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.32.2\\microsoft.identitymodel.abstractions.6.32.2.nupkg.sha512",
-    "C:\\Users\\APT01-60\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.32.2\\microsoft.identitymodel.jsonwebtokens.6.32.2.nupkg.sha512",
-    "C:\\Users\\APT01-60\\.nuget\\packages\\microsoft.identitymodel.logging\\6.32.2\\microsoft.identitymodel.logging.6.32.2.nupkg.sha512",
-    "C:\\Users\\APT01-60\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.32.2\\microsoft.identitymodel.tokens.6.32.2.nupkg.sha512",
-    "C:\\Users\\APT01-60\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\APT01-60\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\APT01-60\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.32.2\\system.identitymodel.tokens.jwt.6.32.2.nupkg.sha512",
-    "C:\\Users\\APT01-60\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\APT01-60\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
-    "C:\\Users\\APT01-60\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
-    "C:\\Users\\APT01-60\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
-    "C:\\Users\\APT01-60\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.32.2\\microsoft.identitymodel.abstractions.6.32.2.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.32.2\\microsoft.identitymodel.jsonwebtokens.6.32.2.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.identitymodel.logging\\6.32.2\\microsoft.identitymodel.logging.6.32.2.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.32.2\\microsoft.identitymodel.tokens.6.32.2.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.32.2\\system.identitymodel.tokens.jwt.6.32.2.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
   ],
   "logs": []
 }

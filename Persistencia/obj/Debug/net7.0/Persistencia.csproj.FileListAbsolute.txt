@@ -13,3 +13,18 @@ C:\Users\APT01-60\Documents\mb\app-web-api\Persistencia\obj\Debug\net7.0\Persist
 C:\Users\APT01-60\Documents\mb\app-web-api\Persistencia\obj\Debug\net7.0\refint\Persistencia.dll
 C:\Users\APT01-60\Documents\mb\app-web-api\Persistencia\obj\Debug\net7.0\Persistencia.pdb
 c:\Users\APT01-60\Documents\mb\app-web-api\Persistencia\obj\Debug\net7.0\ref\Persistencia.dll
+D:\Documents\Campus Programmer\app-web-api\Persistencia\bin\Debug\net7.0\Persistencia.deps.json
+D:\Documents\Campus Programmer\app-web-api\Persistencia\bin\Debug\net7.0\Persistencia.dll
+D:\Documents\Campus Programmer\app-web-api\Persistencia\bin\Debug\net7.0\Persistencia.pdb
+D:\Documents\Campus Programmer\app-web-api\Persistencia\bin\Debug\net7.0\Dominio.dll
+D:\Documents\Campus Programmer\app-web-api\Persistencia\bin\Debug\net7.0\Dominio.pdb
+D:\Documents\Campus Programmer\app-web-api\Persistencia\obj\Debug\net7.0\Persistencia.csproj.AssemblyReference.cache
+D:\Documents\Campus Programmer\app-web-api\Persistencia\obj\Debug\net7.0\Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Campus Programmer\app-web-api\Persistencia\obj\Debug\net7.0\Persistencia.AssemblyInfoInputs.cache
+D:\Documents\Campus Programmer\app-web-api\Persistencia\obj\Debug\net7.0\Persistencia.AssemblyInfo.cs
+D:\Documents\Campus Programmer\app-web-api\Persistencia\obj\Debug\net7.0\Persistencia.csproj.CoreCompileInputs.cache
+D:\Documents\Campus Programmer\app-web-api\Persistencia\obj\Debug\net7.0\Persistencia.csproj.CopyComplete
+D:\Documents\Campus Programmer\app-web-api\Persistencia\obj\Debug\net7.0\Persistencia.dll
+D:\Documents\Campus Programmer\app-web-api\Persistencia\obj\Debug\net7.0\refint\Persistencia.dll
+D:\Documents\Campus Programmer\app-web-api\Persistencia\obj\Debug\net7.0\Persistencia.pdb
+D:\Documents\Campus Programmer\app-web-api\Persistencia\obj\Debug\net7.0\ref\Persistencia.dll

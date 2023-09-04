@@ -10,8 +10,8 @@ using Persistencia;
 namespace Persistencia.Data.Migrations
 {
     [DbContext(typeof(IncidenciasContext))]
-    [Migration("20230831214839_InitialCreateMig")]
-    partial class InitialCreateMig
+    [Migration("20230904062939_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,10 +24,11 @@ namespace Persistencia.Data.Migrations
             modelBuilder.Entity("Dominio.Entities.Ciudad", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                        .HasMaxLength(3)
+                        .HasColumnType("varchar(3)");
 
                     b.Property<string>("IdDepFK")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(3)");
 
                     b.Property<string>("NombreCiu")
                         .IsRequired()
@@ -44,10 +45,11 @@ namespace Persistencia.Data.Migrations
             modelBuilder.Entity("Dominio.Entities.Departamento", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                        .HasMaxLength(3)
+                        .HasColumnType("varchar(3)");
 
                     b.Property<string>("IdPaisFK")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(3)");
 
                     b.Property<string>("NombreDep")
                         .IsRequired()
@@ -70,12 +72,14 @@ namespace Persistencia.Data.Migrations
                         .HasColumnType("varchar(255)");
 
                     b.Property<string>("IdPersonaFK")
-                        .HasColumnType("longtext");
+                        .HasColumnType("varchar(20)");
 
                     b.Property<string>("IdSalonFK")
                         .HasColumnType("varchar(255)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("IdPersonaFK");
 
                     b.HasIndex("IdSalonFK");
 
@@ -85,7 +89,8 @@ namespace Persistencia.Data.Migrations
             modelBuilder.Entity("Dominio.Entities.Pais", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                        .HasMaxLength(3)
+                        .HasColumnType("varchar(3)");
 
                     b.Property<string>("Nombre")
                         .IsRequired()
@@ -103,7 +108,8 @@ namespace Persistencia.Data.Migrations
             modelBuilder.Entity("Dominio.Entities.Persona", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                        .HasMaxLength(20)
+                        .HasColumnType("varchar(20)");
 
                     b.Property<string>("Apellido")
                         .IsRequired()
@@ -117,7 +123,7 @@ namespace Persistencia.Data.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("IdCiudadFK")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(3)");
 
                     b.Property<string>("IdTipoPersonaFK")
                         .HasColumnType("varchar(255)");
@@ -178,7 +184,7 @@ namespace Persistencia.Data.Migrations
                         .HasColumnType("varchar(255)");
 
                     b.Property<string>("IdPersonaFK")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(20)");
 
                     b.HasKey("IdSalonFK", "IdPersonaFK");
 
@@ -209,9 +215,7 @@ namespace Persistencia.Data.Migrations
                 {
                     b.HasOne("Dominio.Entities.Persona", "Persona")
                         .WithMany("Matriculas")
-                        .HasForeignKey("Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("IdPersonaFK");
 
                     b.HasOne("Dominio.Entities.Salon", "Salon")
                         .WithMany("Matriculas")
