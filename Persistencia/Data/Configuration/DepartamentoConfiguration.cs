@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Persistencia.Data.Configuration
 {
-    public class DepConfiguration : IEntityTypeConfiguration<Departamento>
+    public class DepartamentoConfiguration : IEntityTypeConfiguration<Departamento>
     {
         public void Configure(EntityTypeBuilder<Departamento> builder)
         {
@@ -13,6 +13,9 @@ namespace Persistencia.Data.Configuration
             // utilizando el objeto 'builder'.
             builder.ToTable("Departamento");
 
+            builder.HasKey(p=>p.Id);
+            builder.Property(p=>p.Id)
+            .HasMaxLength(3);
             builder.Property(p => p.NombreDep)
             .IsRequired()
             .HasMaxLength(50);

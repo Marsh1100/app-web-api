@@ -12,6 +12,9 @@ namespace Persistencia.Data.Configuration
             // utilizando el objeto 'builder'.
             builder.ToTable("Persona");
 
+            builder.Property(p=>p.Id)
+            .HasMaxLength(20);
+
             builder.Property(p => p.Nombre)
             .IsRequired()
             .HasMaxLength(50);
