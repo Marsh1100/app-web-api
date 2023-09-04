@@ -2,6 +2,7 @@
 
 using Dominio.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Versioning;
 using Persistencia.UnitOfWork;
 
 namespace API.Extensions;
@@ -29,6 +30,7 @@ public static class AplicationServiceExtension
         {
             options.DefaultApiVersion = new ApiVersion(1,0);
             options.AssumeDefaultVersionWhenUnspecified = true; 
+            options.ApiVersionReader = new QueryStringApiVersionReader("ver");
         });
     }
 }
