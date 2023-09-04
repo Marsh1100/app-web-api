@@ -38,8 +38,8 @@ public class PaisController: BaseApiController
 
     public async Task<ActionResult<IEnumerable<PaisDto>>> Get()
     {
-        var departamentos = await _unitOfWork.Paises.GetAllAsync();
-        return _mapper.Map<List<PaisDto>>(departamentos);
+        var paises = await _unitOfWork.Paises.GetAllAsync();
+        return _mapper.Map<List<PaisDto>>(paises);
     }
 
     [HttpGet]
@@ -47,10 +47,10 @@ public class PaisController: BaseApiController
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
 
-    public async Task<ActionResult<IEnumerable<PaisDto>>> Get11()
+    public async Task<ActionResult<IEnumerable<PaisxDepDto>>> Get11()
     {
-        var departamentos = await _unitOfWork.Paises.GetAllAsync();
-        return _mapper.Map<List<PaisDto>>(departamentos);
+        var paises = await _unitOfWork.Paises.GetAllAsync();
+        return _mapper.Map<List<PaisxDepDto>>(paises);
     }
 
     /*[HttpGet("{id}")]
