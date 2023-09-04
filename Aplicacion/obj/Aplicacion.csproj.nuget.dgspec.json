@@ -29,8 +29,8 @@
               "D:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj": {
                 "projectPath": "D:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj"
               },
-              "d:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\Persistencia.csproj"
+              "D:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "D:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -131,14 +131,14 @@
         }
       }
     },
-    "d:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\Persistencia.csproj": {
+    "D:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "D:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\Persistencia.csproj",
+        "projectPath": "D:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\obj\\",
+        "outputPath": "D:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
