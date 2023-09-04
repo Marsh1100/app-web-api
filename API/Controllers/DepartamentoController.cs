@@ -8,7 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 using Persistencia;
 
 namespace API.Controllers;
-
+[ApiVersion("1.0")]
+[ApiVersion("1.1")]
 public class DepartamentoController: BaseApiController
 {
      private readonly IUnitOfWork _unitOfWork;
@@ -19,13 +20,26 @@ public class DepartamentoController: BaseApiController
        this._mapper = mapper;
     }  
 
-     [HttpGet]
+        [HttpGet]
+        [MapToApiVersion("1.0")]
+
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<IEnumerable<DepartamentoDto>>> Get()
         {
             var Dep = await this._unitOfWork.Departamentos.GetAllAsync();
             return _mapper.Map<List<DepartamentoDto>>(Dep);
+        }
+    
+        [HttpGet]
+        [MapToApiVersion("1.1")]
+
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult<IEnumerable<DepxCiudadesDto>>> Get1()
+        {
+            var Dep = await this._unitOfWork.Departamentos.GetAllAsync();
+            return _mapper.Map<List<DepxCiudadesDto>>(Dep);
         }
 
         [HttpGet("{id}")]

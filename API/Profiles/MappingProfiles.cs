@@ -21,6 +21,9 @@ namespace API.Profiles
 
             CreateMap<Ciudad,CiudadDto>()
                 .ReverseMap();
+            CreateMap<Departamento,DepxCiudadesDto>()
+                .ReverseMap();
+            
         }
     }
 }
