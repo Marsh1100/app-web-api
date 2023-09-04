@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj": {}
+    "D:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj": {
+    "D:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "D:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj",
+        "projectPath": "D:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\obj\\",
+        "outputPath": "D:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

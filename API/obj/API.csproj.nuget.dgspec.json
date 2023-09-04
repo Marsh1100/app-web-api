@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Documents\\Campus Programmer\\app-web-api\\API\\API.csproj": {}
+    "D:\\Documents\\Campus Programmer\\app-web-api\\API\\API.csproj": {}
   },
   "projects": {
-    "d:\\Documents\\Campus Programmer\\app-web-api\\API\\API.csproj": {
+    "D:\\Documents\\Campus Programmer\\app-web-api\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Documents\\Campus Programmer\\app-web-api\\API\\API.csproj",
+        "projectUniqueName": "D:\\Documents\\Campus Programmer\\app-web-api\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "d:\\Documents\\Campus Programmer\\app-web-api\\API\\API.csproj",
+        "projectPath": "D:\\Documents\\Campus Programmer\\app-web-api\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "d:\\Documents\\Campus Programmer\\app-web-api\\API\\obj\\",
+        "outputPath": "D:\\Documents\\Campus Programmer\\app-web-api\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -27,8 +27,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "d:\\Documents\\Campus Programmer\\app-web-api\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Aplicacion\\Aplicacion.csproj"
+              "D:\\Documents\\Campus Programmer\\app-web-api\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "D:\\Documents\\Campus Programmer\\app-web-api\\Aplicacion\\Aplicacion.csproj"
               }
             }
           }
@@ -97,14 +97,14 @@
         }
       }
     },
-    "d:\\Documents\\Campus Programmer\\app-web-api\\Aplicacion\\Aplicacion.csproj": {
+    "D:\\Documents\\Campus Programmer\\app-web-api\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Documents\\Campus Programmer\\app-web-api\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "D:\\Documents\\Campus Programmer\\app-web-api\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "D:\\Documents\\Campus Programmer\\app-web-api\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Aplicacion\\obj\\",
+        "outputPath": "D:\\Documents\\Campus Programmer\\app-web-api\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -119,8 +119,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj": {
-                "projectPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj"
+              "D:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj": {
+                "projectPath": "D:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj"
               },
               "d:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\Persistencia.csproj": {
                 "projectPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Persistencia\\Persistencia.csproj"
@@ -157,14 +157,14 @@
         }
       }
     },
-    "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj": {
+    "D:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "D:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj",
+        "projectPath": "D:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\obj\\",
+        "outputPath": "D:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -246,8 +246,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj": {
-                "projectPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj"
+              "D:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj": {
+                "projectPath": "D:\\Documents\\Campus Programmer\\app-web-api\\Dominio\\Dominio.csproj"
               }
             }
           }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Documents\\Campus Programmer\\app-web-api\\Seguridad\\Seguridad.csproj": {}
+    "D:\\Documents\\Campus Programmer\\app-web-api\\Seguridad\\Seguridad.csproj": {}
   },
   "projects": {
-    "d:\\Documents\\Campus Programmer\\app-web-api\\Seguridad\\Seguridad.csproj": {
+    "D:\\Documents\\Campus Programmer\\app-web-api\\Seguridad\\Seguridad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Documents\\Campus Programmer\\app-web-api\\Seguridad\\Seguridad.csproj",
+        "projectUniqueName": "D:\\Documents\\Campus Programmer\\app-web-api\\Seguridad\\Seguridad.csproj",
         "projectName": "Seguridad",
-        "projectPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Seguridad\\Seguridad.csproj",
+        "projectPath": "D:\\Documents\\Campus Programmer\\app-web-api\\Seguridad\\Seguridad.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "d:\\Documents\\Campus Programmer\\app-web-api\\Seguridad\\obj\\",
+        "outputPath": "D:\\Documents\\Campus Programmer\\app-web-api\\Seguridad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

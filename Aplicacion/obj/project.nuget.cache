@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4BZEhyPrEx6sjxYhv5tiLyqC2yNmYBJjM19BuVQc+ShDKS96LY03HJBNTknzgAAri+acrQ+MAMyRtdw8EGT5gw==",
+  "dgSpecHash": "7Xo1NFUYiR2YO1BHz1f+0pH9yGFokQG0301qwBVz/iu1DlR9JfM6yvaWst1JYFZ+9HulxLIg5l4jlkkjnVDNew==",
   "success": true,
-  "projectFilePath": "d:\\Documents\\Campus Programmer\\app-web-api\\Aplicacion\\Aplicacion.csproj",
+  "projectFilePath": "D:\\Documents\\Campus Programmer\\app-web-api\\Aplicacion\\Aplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
