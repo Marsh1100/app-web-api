@@ -20,6 +20,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.ConfigureCors(); //Extensiones
+builder.Services.ConfigureApiVersioning(); //Servicio control de vers
 builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());//automapper
 // Add services to the container.
 builder.Services.AddAplicationServices();// Para usar los servicios de extensiones (patrón unidad de trabajo)
