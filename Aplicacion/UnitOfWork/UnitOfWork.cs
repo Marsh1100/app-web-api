@@ -47,6 +47,19 @@ public class UnitOfWork : IUnitOfWork, IDisposable
             return _ciudad;
         }
     }
+
+    private PersonaRepository _persona;
+
+    public IPersona Personas
+    {
+        get{
+            if(_persona == null)
+            {
+                _persona = new PersonaRepository(_context);
+            }
+            return _persona;
+        }
+    }
     public void Dispose()
     {
         _context.Dispose();    }
