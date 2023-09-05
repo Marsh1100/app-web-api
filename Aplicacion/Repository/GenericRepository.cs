@@ -36,10 +36,23 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
         return await _context.Set<T>().ToListAsync();
     }
 
-    public Task<(int totalRecord, IEnumerable<T> records)> GetAllAsync(int pageIndex, int pageSize, string search)
+   
+   /*public Task<(int totalRecord, IEnumerable<T> records)> GetAllAsync(int pageIndex, int pageSize, string search)
     {
         throw new NotImplementedException();
+    }*/
+
+    public virtual async Task<(int totalRegistros, IEnumerable<T> registros)>GetAllAsync(int pageIndex, int pageSize, string _search)
+    {
+        var totalRegistros =  await _context.Set<T>().CountAsync();
+        var registros = await _context.Set<T>()
+            .Skip((pageIndex -1)* pageSize)
+            .Take(pageSize)
+            .ToListAsync();
+        return (totalRegistros, registros);
     }
+
+  
 
     public virtual async Task<T> GetByIdAsync(string id)
     {
