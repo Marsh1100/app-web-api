@@ -24,6 +24,12 @@ namespace API.Profiles
             CreateMap<Departamento,DepxCiudadesDto>()
                 .ReverseMap();
             
+            CreateMap<Persona, PersonaDto>()
+                .ReverseMap()
+                .ForMember( o => o.Matriculas, d=> d.Ignore())
+                .ForMember( o => o.TrainerSalones, d=> d.Ignore());
+
+
         }
     }
 }
