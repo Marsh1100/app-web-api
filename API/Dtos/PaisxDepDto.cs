@@ -9,6 +9,7 @@ namespace API.Dtos
     {
         public string Id { get; set; }
         public string Nombre { get; set;}
-        public List<DepartamentoDto> departamentos { get; set; }
+        public List<DepxCiudadesDto> departamentos{ get; set; }
+        
     }
 }

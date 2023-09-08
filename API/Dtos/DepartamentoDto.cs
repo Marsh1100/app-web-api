@@ -8,9 +8,8 @@ namespace API.Dtos
     public class DepartamentoDto
     {
         public string Id { get; set; }
-       public string IdPaisFK { get; set; }
+        public string IdPaisFK { get; set; }
         public string NombreDep { get; set; }
 
-        public List<CiudadDto> ciudades { get; set; }
     }
 }

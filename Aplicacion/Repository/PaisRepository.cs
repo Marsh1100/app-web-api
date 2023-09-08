@@ -18,14 +18,14 @@ public class PaisRepository: GenericRepository<Pais>, IPais
     public override async Task<IEnumerable<Pais>> GetAllAsync()
     {
         return await _context.Paises
-            .Include(p=>p.Departamentos)
+            .Include(p=>p.Departamentos).ThenInclude(p => p.Ciudades)
             .ToListAsync();
     }
 
     public override async Task<Pais> GetByIdAsync(string id)
     {
         return await _context.Paises
-            .Include(p=>p.Departamentos)
+            .Include(p=>p.Departamentos).ThenInclude(p => p.Ciudades)
             .FirstOrDefaultAsync(p=> p.Id == id);
     }
 
@@ -40,7 +40,7 @@ public class PaisRepository: GenericRepository<Pais>, IPais
         query = query.OrderBy(p=>p.Id);
         var totalRegistros = await query.CountAsync();
         var registros = await query 
-                            .Include(u => u.Departamentos)
+                            .Include(u => u.Departamentos).ThenInclude(p => p.Ciudades)
                             .Skip((pageIndex-1)*pageSize)
                             .Take(pageSize)
                             .ToListAsync();
